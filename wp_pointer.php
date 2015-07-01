@@ -50,6 +50,7 @@ class WP_Pointer
 	}
 
 	public function register_pointers( $pntrs ) {
+		$pointers = array();
 		foreach( $pntrs as $ptr ) {
 
 			if( $ptr['screen'] == $this->screen_id ) {
